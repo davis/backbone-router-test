@@ -24,3 +24,11 @@ Url looks like `http://localhost:3000/space space`
 ### Why this is a problem
 
 This breaks URLs when copy pasting them, etc, and in general is inconsistent behavior, because none of the other URLencoded chars get decoded.
+
+### How to see it for yourself
+
+```sh
+git clone git@github.com:davis/backbone-router-test.git
+cd backbone-router-test
+open index.html
+```
